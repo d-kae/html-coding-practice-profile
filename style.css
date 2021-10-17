@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+}
+
+main {
+  display: block;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+#header .left-side .logo {
+  width: 120px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+#header .left-side .logo div {
+  padding-top: 2px;
+}
+#header .right-side .menu-bar {
+  display: flex;
+  justify-content: flex-start;
+}
+#header .right-side .menu-bar a {
+  margin-right: 30px;
+  font-size: 14.4px;
+  text-decoration: none;
+  color: black;
+}
+
+#main_visual {
+  position: relative;
+}
+#main_visual img {
+  width: 100%;
+  max-height: 600px;
+  object-fit: cover;
+}
+#main_visual p {
+  position: absolute;
+  font-weight: bold;
+  font-size: 42px;
+  padding: 30px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
+
+.section_title {
+  display: inline-block;
+  font-size: 2rem;
+  margin-bottom: 60px;
+  border-bottom: solid 1px #383e45;
+}
+
+#about {
+  margin-top: 76px;
+  text-align: center;
+}
+#about #about_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+#about #about_content img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+#about #about_content #about_text_part {
+  text-align: left;
+  margin-left: 30px;
+}
+#about #about_content #about_text_part h3 {
+  margin: 0 0 10px 0;
+}
+
+.content_title {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+#bicycle {
+  margin-top: 100px;
+  margin-bottom: 110px;
+  text-align: center;
+}
+#bicycle ul {
+  display: flex;
+  justify-content: space-between;
+}
+#bicycle ul li {
+  list-style: none;
+  width: 32%;
+}
+#bicycle ul img {
+  max-width: 100%;
+}
+
+footer {
+  text-align: center;
+}
+footer p {
+  font-family: Arial, serif;
+  font-weight: normal;
+  font-size: 10px;
+  color: #383e45;
+}
+
+/*# sourceMappingURL=style.css.map */
